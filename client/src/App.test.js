@@ -14,3 +14,27 @@ test('updates searchTitle when search input value changes', () => {
   fireEvent.change(searchInput, { target: { value: 'Episode IV' } });
   expect(searchInput.value).toBe('Episode IV');
 });
+
+test('displays loading text while searching for films', async () => {
+  render(<App />);
+  const searchInput = screen.getByPlaceholderText(/Search for a Star Wars film/i);
+  const searchButton = screen.getByRole('button', { name: /Search/i });
+
+  fireEvent.change(searchInput, { target: { value: 'Episode IV' } });
+  fireEvent.click(searchButton);
+
+  const loadingText = await screen.findByText(/Loading.../i);
+  expect(loadingText).toBeInTheDocument();
+});
+
+test('displays loading message when films are being searched', () => {
+  render(<App />);
+  const searchInput = screen.getByPlaceholderText(/Search for a Star Wars film/i);
+  const searchButton = screen.getByRole('button', { name: /Search/i });
+
+  fireEvent.change(searchInput, { target: { value: 'Episode IV' } });
+  fireEvent.click(searchButton);
+
+  const loadingMessage = screen.getByText(/Loading.../i);
+  expect(loadingMessage).toBeInTheDocument();
+});
