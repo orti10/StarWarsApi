@@ -6,6 +6,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+  color: white;
   }
   
 .textField {
@@ -29,25 +30,38 @@
     cursor: pointer;
     font-size: 16px;
   }
+  
+.previousButton {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+.nextButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
 
 .results {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+  color: white;
   }
 
 .resultsList {
   cursor: pointer;
   }
 
-  tr:hover {
-    background-color: #afaac5;
-  }
-  
-
   body {
-    background-image: url('R2D2_C3PO.png');
+    background-image: url('R2D2_BG.jpg');
     background-size: cover;
     background-position: top right;
     background-repeat: no-repeat;
