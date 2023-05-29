@@ -1,0 +1,60 @@
+.head {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  }
+  
+.textField {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .textField::placeholder {
+    color: #999;
+  }
+  
+.searchButton {
+    background-color: rgb(47, 47, 140);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+.results {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  }
+
+.resultsList {
+  cursor: pointer;
+  }
+
+  tr:hover {
+    background-color: #afaac5;
+  }
+  
+
+  body {
+    background-image: url('R2D2_C3PO.png');
+    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  
+  
+
+  
