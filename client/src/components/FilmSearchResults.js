@@ -10,7 +10,7 @@ function FilmSearchResults({ films, handleFilmSelect }) {
       <table>
         <thead>
           <tr>
-            <th style={columnSpacing}>##</th>
+            <th style={columnSpacing}>#</th>
             <th style={{ ...style, ...columnSpacing }}>Title</th>
             <th style={{ ...style, ...columnSpacing }}>Director</th>
             <th style={{ ...style, ...columnSpacing }}>Release Date</th>
