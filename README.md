@@ -21,7 +21,7 @@ open 2 terminals:
 * There may be several results returned from the search so the user can select one before characters are fetched.
 
 ## Technology Stack
-The Response Time Tracker application uses the following technology stack:
+The application uses the following technology stack:
 * ReactJS for the frontend
 * Node.js and Express.js for the backend server
 
