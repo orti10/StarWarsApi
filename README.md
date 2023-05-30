@@ -17,8 +17,8 @@ open 2 terminals:
 
 
 ## Features 
-● Users can search for a star wars film and get a paginated list of characters from that film.
-● There may be several results returned from the search so the user can select one before characters are fetched.
+* Users can search for a star wars film and get a paginated list of characters from that film.
+* There may be several results returned from the search so the user can select one before characters are fetched.
 
 ## Technology Stack
 The Response Time Tracker application uses the following technology stack:
